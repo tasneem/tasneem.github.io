@@ -1,6 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,800,300italic,400italic);
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+
 /*!
  *  Simple - Minimal, responsive resume
  *  Copyright 2013 prettyspoon.com
@@ -22,9 +25,7 @@ body {
 .row-fluid {
   border-bottom: 1px solid #dddddd;
 }
-.span9 {
-  padding-top: 10px;
-}
+
 article {
   padding: 20px 0;
 }
@@ -39,26 +40,7 @@ ul {
 .skills {
   border: 0;
 }
-/* Links */
-a {
-  color: #000000;
-  border-bottom: 1px solid #dddddd;
-  -o-transition: color 0.5s ease-out, background 0.6s ease-in;
-  -ms-transition: color 0.5s ease-out, background 0.6s ease-in;
-  -moz-transition: color 0.5s ease-out, background 0.6s ease-in;
-  -webkit-transition: color 0.5s ease-out, background 0.6s ease-in;
-  /* ...and now override with proper CSS property */
 
-  transition: color 0.5s ease-out, background 0.6s ease-in;
-}
-a:hover {
-  color: #333333;
-  background: #F9F9F9;
-  text-decoration: none;
-}
-footer a {
-  padding: 0 ;
-}
 /* Typography */
 h1,
 h2,
@@ -71,12 +53,10 @@ h5 {
   line-height: 100%;
 }
 h1 {
-  font-size: 40px;
-  line-height: 50px;
-  padding-top: 30px;
-  font-weight: 700;
-  font-family: Open Sans;
-  letter-spacing: 1px;
+  font-size: 7em;
+  font-family: 'Oswald', Arial, sans-serif;
+  letter-spacing: 2px;
+  margin: 30px 0px;
 }
 h2 {
   font-size: 21px;
@@ -113,7 +93,7 @@ p {
   margin: 5px 2px;
 }
 .social {
-  padding: 30px 0px;
+  padding: 4em 0em;
   font-size: 14px;
   line-height: 23px;
 }
